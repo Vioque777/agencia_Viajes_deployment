@@ -11,8 +11,8 @@ db.authenticate()
     .then(() => console.log('Base de datos conetada'))
     .catch( error => console.log(error) );
 
-const host = process.env.HOST || 4000; 
-const port = process.env.PORT || 4000;
+const host = process.env.HOST || 3000; 
+const port = process.env.PORT || 3000;
 
 app.set('view engine', 'pug');
 
